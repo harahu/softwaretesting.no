@@ -15,15 +15,31 @@ h1, h2, h3 {
   }
 img {
   float: left;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #000000;
   border-radius: 30%;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 a {
   color: #2980B9;
 }
 .pss {
+  padding: 10px 0;
+  border-radius: 3px;
+}
+.pss ul {
+  list-style-type: none;
+  padding: 0 0;
+}
+.pss li {
   background-color: #E0E0E0;
   color: #111111;
   border-radius: 3px;
+  margin: 10px 0;
+}
+.footerul {
+  padding: 0;
+  text-align: center;
+}
+.footerul li {
+  display: inline;
 }
